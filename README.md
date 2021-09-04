@@ -6,14 +6,14 @@ Computational Screen
 
 1. Network Motif Scan - folder containing all materials for AND gate computational screen
 	Run_Single_Circuit.m: Applies 1 set of parameters to a defined Circuit and plots
-	Screen_All_Circuit.m: Applies 10k set of parameters to all circuits
+	Screen_All_Circuit.m: Applies 10k set of parameters to all circuits; creates ScreenAll.mat
 	Run_Circuit_X.m: Functions used by prior 2 functions to access model for each circuit
 	ScreenAll.mat: Data file containing screen results
 	Analyze_Results.m: Plots results from Screen_All_Circuit.m
 
 2. Network Motif Scan OR logic- folder containing all materials for OR gate computational screen
 	Run_Single_Circuit.m: Applies 1 set of parameters to a defined Circuit and plots
-	Screen_All_Circuit.m: Applies 10k set of parameters to all circuits
+	Screen_All_Circuit.m: Applies 10k set of parameters to all circuits; creates ScreenDataOR.mat
 	Run_Circuit_X.m (where X is a number from 1-8): Functions used by prior 2 
 		functions to access model for each circuit
 	ScreenDataOR.mat: Data file containing screen results
